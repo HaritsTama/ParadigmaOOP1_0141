@@ -26,6 +26,10 @@ void ibu::tambahAnak(anak* pAnak)
 void ibu::cetakAnak()
 {
 	cout << "Daftar Anak dari Ibu \"" << this->nama << "\":\n";
+	/* for (int i = 0; i < daftar_anak.size(); i++ {
+	     cout << a->nama << "\n";
+
+    }*/
 	for (auto& a : daftar_anak)
 	{
 		cout << a->nama << "\n";
